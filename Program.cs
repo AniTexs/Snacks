@@ -10,6 +10,7 @@ namespace Snacks
     {
         static void Main()
         {
+<<<<<<< HEAD
             int bannana = 1;
             int nikoline = 1;
             string caramel = "Caramel";
@@ -17,6 +18,22 @@ namespace Snacks
 
 
             Console.WriteLine("antal banana", bannana, "antal nikoline", nikoline, caramel, chocola);
+=======
+            Donut nyDonut = new Donut("Kakao Donut", 12, 100);
+        }
+    }
+    class Donut
+    {
+        public string DonutType { get; set; }
+        public int DonutPrice { get; set; }
+        public int DonutAmount { get; set; }
+
+        public Donut(string DonutType, int DonutPrice, int DonutAmount)
+        {
+            this.DonutType = DonutType;
+            this.DonutPrice = DonutPrice;
+            this.DonutAmount = DonutAmount;
+>>>>>>> 435e21de9d6c98c79fe5f98dce8759c6ebd84d56
         }
     }
 
