@@ -15,6 +15,15 @@ namespace Snacks
 
     class Icecream
     {
+        public string Type { get; set; }
+        public int Price { get; set; }
+        public int Amount { get; set; }
 
+        public Icecream(string Type, int Price, int Amount)
+        {
+            this.Type = Type;
+            this.Price = Price;
+            this.Amount = Amount;
+        }
     }
 }
