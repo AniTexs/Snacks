@@ -12,4 +12,9 @@ namespace Snacks
         {
         }
     }
+
+    class Icecream
+    {
+
+    }
 }
