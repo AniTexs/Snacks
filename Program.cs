@@ -8,8 +8,28 @@ namespace Snacks
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
         }
+    }
+
+    class Kage 
+    {
+        enum KageTyper
+        {
+            Chokoladekage,
+            Nutellakage,
+            Æblekage,
+            Drømme,
+            Gullerrodskage,
+            Sandkage,
+            Dessertkage,
+            Hindbærkage,
+            Banankage,
+            Jordbærkage
+        }
+
+        public int Kg { get; set; }
+        public int MyProperty { get; set; }
     }
 }
